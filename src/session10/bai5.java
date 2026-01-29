@@ -1,6 +1,5 @@
 package session10;
 
-// Lớp cha Animal
 class Animal {
     protected String name;
     protected int age;
@@ -27,7 +26,6 @@ class Animal {
     }
 }
 
-// Lớp Mammal kế thừa Animal
 class Mammal extends Animal {
     private boolean hasHair;
 
@@ -45,7 +43,6 @@ class Mammal extends Animal {
     }
 }
 
-// Lớp Dog kế thừa Mammal
 class Dog extends Mammal {
     public Dog(String name, int age, boolean hasHair) {
         super(name, age, hasHair);
@@ -61,7 +58,6 @@ class Dog extends Mammal {
     }
 }
 
-// Lớp Cat kế thừa Mammal
 class Cat extends Mammal {
     public Cat(String name, int age, boolean hasHair) {
         super(name, age, hasHair);
@@ -77,7 +73,6 @@ class Cat extends Mammal {
     }
 }
 
-// Lớp Elephant kế thừa Mammal
 class Elephant extends Mammal {
     public Elephant(String name, int age, boolean hasHair) {
         super(name, age, hasHair);
@@ -93,7 +88,6 @@ class Elephant extends Mammal {
     }
 }
 
-// Lớp chính ZooApp
 public class bai5 {
     public static void main(String[] args) {
         Animal[] zoo = {
